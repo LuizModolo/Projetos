@@ -1,0 +1,88 @@
+@font-face {
+  font-family: supermario;
+  src:url(/images/SuperMario256.ttf)
+}
+
+body {
+  font-family: supermario, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  background-image: url(/images/860645.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#c1 {
+  color: rgb(1, 170, 223);
+}
+
+#c2 {
+  color: rgb(253, 208, 6);
+}
+
+#c3 {
+  color: rgb(248, 46, 30);
+}
+
+#c4 {
+  color: rgb(3, 181, 61);
+}
+
+#c5 {
+  color: rgb(253, 209, 4);
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+}
+
+.color {
+  padding: 30px;
+  display: inline-block;
+  border: solid black 1px;
+  margin-bottom: 15px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  padding: 30px;
+  margin: 1px;
+  display: inline-block;
+  border: solid black 1px;
+  background-color: white;
+}
+
+#clear-board {
+  background-color: lightgray;
+  width: 60px;
+  height: 20px;
+  border: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#generate-board {
+  background-color: lightgray;
+  width: 60px;
+  height: 20px;
+  border: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#board-size {
+  width: 60px;
+  height: 20px;
+  border: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}

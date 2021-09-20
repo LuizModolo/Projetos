@@ -1,0 +1,178 @@
+* {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 60px;
+  justify-content: space-evenly;
+  padding: 0 10%;
+  margin-bottom: 20px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  color: white;
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 230%;
+}
+
+.trybewarts-header-logo {
+  flex: 0 1 auto;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+}
+
+.trybewarts-login input {
+  margin-right: 7px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation-form h2 {
+  text-align: center;
+  font-size: 150%;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.form-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-lastname {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#input-name {
+  margin-right: 10px;
+}
+
+#input-email {
+  margin-right: 10px;
+}
+
+.email-house {
+  display: flex;
+}
+
+#selected-house-div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+hr {
+  width: 678px;
+  height: 1px;
+  border: none;
+  background-color: gray;
+}
+
+.family-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-learn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.family-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-radio-first {
+  margin-left: 8px;
+}
+
+.learn-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learn-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-options label {
+  margin-right: 15px;
+}
+
+.learn-options input {
+  margin-right: 5px;
+}
+
+.avaliation-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.avaliation-option label {
+  margin-right: 14px;
+}
+
+.avaliation-option input {
+  margin-right: 3px;
+}
+
+.avaliation-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-option {
+  margin-bottom: 15px;
+}
+
+.submit-agreement {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-agreement div {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: darkslategray;
+  color: white;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 120%;
+}
